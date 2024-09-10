@@ -28,7 +28,7 @@ print("Will you be able to find the treasure?")
 choice1 = input ("You find yourself on a deserted beach.\nThe sound of the waves crashing fills the air.\nBefore you, two paths lie ahead: one to the left and one to the right. ").lower()
 
 if choice1 =="left":
-    choice2 = input("You follow the right path, which leads you to a quiet lake.\nYou can see something glimmering on the other side, but the water is full of movement.\nWill you wait or try to swim? ").lower()
+    choice2 = input("You follow the left path, which leads you to a quiet lake.\nYou can see something glimmering on the other side, but the water is full of movement.\nWill you wait or try to swim? ").lower()
     if choice2 =="wait":
         print("You wait patiently, and after a while, the movement in the water subsides.\nThe fish seem to have moved on, and the water is calm.\nYou can now swim safely across.")
         choice3 = input("Once across, you find a mysterious door in the rocks.\nYou need to choose a door.\nWhich one will you choose? The red, blue or yellow door? ").lower()
