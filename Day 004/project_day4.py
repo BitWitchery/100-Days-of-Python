@@ -1,9 +1,9 @@
 import random
 
 # my solution 
-player1 = input("Select o for Rock, 1 for Paper, or 2 for Scissor :")
+player1 = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
 computer = random.randint(0,2)
-print("Player 2 selected: ", computer)
+print("Computer selected: ", computer)
 
 if player1 == 0 and computer == 1:
     print("Computer Won")
