@@ -4,7 +4,7 @@ def turn_right():
     turn_left()
 
 while front_is_clear():
-    move
+    move()
     turn_left()
 
 while not at_goal():
